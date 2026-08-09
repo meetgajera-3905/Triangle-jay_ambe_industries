@@ -72,14 +72,16 @@ export default function AboutPage() {
             </div>
           </div>
 
-          <div className="lg:col-span-5 relative aspect-[4/3] rounded-2xl overflow-hidden shadow-card border border-border-light bg-cream-100">
-            <Image
-              src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=1200&auto=format&fit=crop"
-              alt="JAY AMBE INDUSTRIES Manufacturing Factory Floor"
-              fill
-              sizes="(max-width: 1024px) 100vw, 40vw"
-              className="object-cover"
-            />
+          <div className="lg:col-span-5 relative aspect-[16/9] overflow-hidden rounded-[28px]">
+            <div className="absolute inset-0 p-5 sm:p-7 md:p-8">
+              <Image
+                src="/logo/logo_3.png"
+                alt="JAY AMBE INDUSTRIES Manufacturing Factory Floor"
+                fill
+                sizes="( max-width: 768px ) 100vw, ( max-width: 1200px ) 50vw, 33vw"
+                className="object-contain object-center"
+              />
+            </div>
           </div>
         </div>
 
