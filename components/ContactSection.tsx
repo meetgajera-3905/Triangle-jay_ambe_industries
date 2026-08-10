@@ -84,13 +84,13 @@ export const ContactSection: React.FC = () => {
                 <span>Chat on WhatsApp</span>
               </a>
 
-              <a
+              {/* <a
                 href="tel:+918004567890"
                 className="inline-flex items-center space-x-2 border border-navy-900/30 text-navy-900 hover:bg-navy-900 hover:text-white text-xs font-bold uppercase tracking-wider px-5 py-3 rounded-sm transition-colors"
               >
                 <PhoneCall className="w-4 h-4" />
                 <span>Call Direct</span>
-              </a>
+              </a> */}
             </div>
           </div>
 
